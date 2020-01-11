@@ -20,19 +20,25 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - h2
-    - h11
+    - brotlipy
     - certifi
     - chardet
+    - h11
+    - h2
     - hstspreload
     - idna
     - rfc3986
-    - brotlipy
+    - sniffio
+    - urllib3
 
 test:
   imports:
     - httpx
     - httpx.client
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/encode/httpx
