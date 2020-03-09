@@ -34,7 +34,6 @@ requirements:
 test:
   imports:
     - httpx
-    - httpx.client
   requires:
     - pip
   commands:
