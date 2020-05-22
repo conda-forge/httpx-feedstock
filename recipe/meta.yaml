@@ -1,7 +1,6 @@
 {% set name = "httpx" %}
 {% set version = "0.13.1" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
