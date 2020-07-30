@@ -50,5 +50,3 @@ extra:
     - primozgodec
     - tomchristie
     - florimondmanca
-
-    - idna ==2.*
