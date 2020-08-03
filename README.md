@@ -5,7 +5,7 @@ Home: https://github.com/encode/httpx
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A next-generation HTTP client for Python.
 
@@ -116,5 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@florimondmanca](https://github.com/florimondmanca/)
 * [@primozgodec](https://github.com/primozgodec/)
+* [@tomchristie](https://github.com/tomchristie/)
 
