@@ -118,5 +118,4 @@ Feedstock Maintainers
 
 * [@florimondmanca](https://github.com/florimondmanca/)
 * [@primozgodec](https://github.com/primozgodec/)
-* [@tomchristie](https://github.com/tomchristie/)
 
