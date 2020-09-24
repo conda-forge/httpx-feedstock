@@ -22,7 +22,6 @@ requirements:
     - python >=3.6
     - certifi
     - sniffio
-    - chardet ==3.*
     - idna ==2.*
     - rfc3986 >=1.3,<2
     - httpcore ==0.10.*
