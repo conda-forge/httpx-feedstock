@@ -24,7 +24,7 @@ requirements:
     - sniffio
     - idna ==2.*
     - rfc3986 >=1.3,<2
-    - httpcore ==0.12.*
+    - httpcore >=0.13.0,<0.14.0
 
 test:
   imports:
