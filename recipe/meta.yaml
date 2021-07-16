@@ -18,7 +18,7 @@ requirements:
     - python
     - pip
   run:
-    - anyio >=3.0.0  # [py==37]
+    - anyio ==3  # [py==37]
     - async_generator  # [py<37]
     - certifi
     - httpcore >=0.13.3,<0.14.0,!=pyhd8ed1ab_0
