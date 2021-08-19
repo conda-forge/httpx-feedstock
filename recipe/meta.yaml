@@ -27,7 +27,7 @@ requirements:
     - python
     - rfc3986 >=1.3,<2
     - sniffio
-    - typing-extensions  # [py<37]
+    - charset_normalizer
 
 test:
   imports:
