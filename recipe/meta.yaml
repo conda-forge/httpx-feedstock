@@ -27,11 +27,12 @@ requirements:
     - python
   run:
     - certifi
+    - sniffio
     - httpcore >=0.15.0,<0.17.0
     - idna
     - python
     - rfc3986 >=1.3,<2
-    - sniffio
+
 
 test:
   imports:
