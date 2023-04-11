@@ -1,5 +1,5 @@
 {% set name = "httpx" %}
-{% set version = "0.23.3" %}
+{% set version = "0.24.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9818458eb565bb54898ccb9b8b251a28785dd4a55afbc23d0eb410754fe7d0f9
+  sha256: 507d676fc3e26110d41df7d35ebd8b3b8585052450f4097401c9be59d928c63e
 
 build:
   number: 0

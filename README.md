@@ -1,11 +1,11 @@
-About httpx
-===========
+About httpx-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/httpx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/encode/httpx
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/httpx-feedstock/blob/main/LICENSE.txt)
 
 Summary: A next-generation HTTP client for Python.
 
