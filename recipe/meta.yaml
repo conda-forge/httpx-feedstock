@@ -1,5 +1,5 @@
 {% set name = "httpx" %}
-{% set version = "0.25.0" %}
+{% set version = "0.25.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 47ecda285389cb32bb2691cc6e069e3ab0205956f681c5b2ad2325719751d875
+  sha256: ffd96d5cf901e63863d9f1b4b6807861dbea4d301613415d9e6e57ead15fc5d0
 
 build:
   number: 0
@@ -25,8 +25,9 @@ requirements:
   run:
     - python >=3.8
     - certifi
-    - httpcore >=0.18.0,<0.19.0
+    - httpcore
     - idna
+    - anyio
     - sniffio
 
 test:
