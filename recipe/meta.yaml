@@ -1,13 +1,13 @@
 {% set name = "httpx" %}
-{% set version = "0.27.2" %}
+{% set version = "0.28.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 0858d3bab51ba7e386637f22a61d8ccddaeec5f3fe4209da3a6168dbb91573e0
 
 build:
   number: 0
@@ -18,22 +18,22 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - hatchling
     - hatch-fancy-pypi-readme
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - certifi
-    - httpcore =1.*
+    - httpcore 1.*
     - idna
     - anyio
-    - sniffio
 
 test:
   imports:
     - httpx
   requires:
+    - python {{ python_min }}
     - click ==8.*
     - pip
     - pygments ==2.*
