@@ -1,13 +1,13 @@
 {% set name = "httpx" %}
-{% set version = "0.28.1" %}
+{% set version = "0.29.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 700928ee6c1f4213795e67c47eba8f8553639069fea89199f71d654e38edc593
 
 build:
   number: 0
